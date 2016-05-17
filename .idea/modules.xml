@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/LessonsSApart2.iml" filepath="$PROJECT_DIR$/LessonsSApart2.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0391sqliteonupgradedb/p0391sqliteonupgradedb.iml" filepath="$PROJECT_DIR$/p0391sqliteonupgradedb/p0391sqliteonupgradedb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0401layoutinflater/p0401layoutinflater.iml" filepath="$PROJECT_DIR$/p0401layoutinflater/p0401layoutinflater.iml" />
     </modules>
   </component>
 </project>
