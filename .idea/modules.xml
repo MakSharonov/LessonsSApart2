@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/p0481simpleadaper/p0481simpleadaper.iml" filepath="$PROJECT_DIR$/p0481simpleadaper/p0481simpleadaper.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0491simpleadapercustom1/p0491simpleadapercustom1.iml" filepath="$PROJECT_DIR$/p0491simpleadapercustom1/p0491simpleadapercustom1.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0511simpleadapterdata/p0511simpleadapterdata.iml" filepath="$PROJECT_DIR$/p0511simpleadapterdata/p0511simpleadapterdata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0531simplecursortreeadapter/p0531simplecursortreeadapter.iml" filepath="$PROJECT_DIR$/p0531simplecursortreeadapter/p0531simplecursortreeadapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/simpleadaptercustom/simpleadaptercustom.iml" filepath="$PROJECT_DIR$/simpleadaptercustom/simpleadaptercustom.iml" />
     </modules>
   </component>
