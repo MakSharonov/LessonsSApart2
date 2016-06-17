@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected Cursor getChildrenCursor(Cursor groupCursor) {
-            return db.getPhoneData(groupCursor.getInt(groupCursor.getColumnIndex(db.PHONE_COLUMN_COMPANY)));
+            return db.getPhoneData(groupCursor.getInt(groupCursor.getColumnIndex(db.COMPANY_COLUMN_ID)));
         }
     }
 }

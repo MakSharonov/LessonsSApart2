@@ -88,17 +88,17 @@ public class DB {
             db.execSQL(PHONE_TABLE_CREATE);
             cv.clear();
             for (int i = 0; i < phonesHTC.length; i++) {
-                cv.put(PHONE_COLUMN_COMPANY, 1);
+                cv.put(PHONE_COLUMN_COMPANY, 0);
                 cv.put(PHONE_COLUMN_NAME, phonesHTC[i]);
                 db.insert(PHONE_TABLE, null, cv);
             }
             for (int i = 0; i < phonesSams.length; i++) {
-                cv.put(PHONE_COLUMN_COMPANY, 2);
+                cv.put(PHONE_COLUMN_COMPANY, 1);
                 cv.put(PHONE_COLUMN_NAME, phonesSams[i]);
                 db.insert(PHONE_TABLE, null, cv);
             }
             for (int i = 0; i < phonesLG.length; i++) {
-                cv.put(PHONE_COLUMN_COMPANY, 3);
+                cv.put(PHONE_COLUMN_COMPANY, 2);
                 cv.put(PHONE_COLUMN_NAME, phonesLG[i]);
                 db.insert(PHONE_TABLE, null, cv);
             }
