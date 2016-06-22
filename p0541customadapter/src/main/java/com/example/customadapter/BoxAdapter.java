@@ -52,7 +52,7 @@ public class BoxAdapter extends BaseAdapter {
         Product p = getProduct(position);
 
         ((TextView) view.findViewById(R.id.tvDescr)).setText(p.name);
-        ((TextView) view.findViewById(R.id.tvPrice)).setText(p.price);
+        ((TextView) view.findViewById(R.id.tvPrice)).setText(String.valueOf(p.price));
         ((ImageView) view.findViewById(R.id.ivImage)).setImageResource(R.drawable.lo);
 
         CheckBox cbBox = (CheckBox) view.findViewById(R.id.cbBox);
