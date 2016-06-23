@@ -21,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/p0561spinner/p0561spinner.iml" filepath="$PROJECT_DIR$/p0561spinner/p0561spinner.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0571gridview/p0571gridview.iml" filepath="$PROJECT_DIR$/p0571gridview/p0571gridview.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0581timepickerdialog/p0581timepickerdialog.iml" filepath="$PROJECT_DIR$/p0581timepickerdialog/p0581timepickerdialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p059datepickerdialog/p059datepickerdialog.iml" filepath="$PROJECT_DIR$/p059datepickerdialog/p059datepickerdialog.iml" />
       <module fileurl="file://$PROJECT_DIR$/simpleadaptercustom/simpleadaptercustom.iml" filepath="$PROJECT_DIR$/simpleadaptercustom/simpleadaptercustom.iml" />
     </modules>
   </component>
