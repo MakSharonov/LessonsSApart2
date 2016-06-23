@@ -6,7 +6,7 @@
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleHome" value="C:\Program Files\Android\Android Studio\gradle\gradle-2.8" />
-        <option name="gradleJvm" value="1.7" />
+        <option name="gradleJvm" value="1.8" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -26,6 +26,7 @@
             <option value="$PROJECT_DIR$/p0541customadapter" />
             <option value="$PROJECT_DIR$/p0551headerfooter" />
             <option value="$PROJECT_DIR$/p0561spinner" />
+            <option value="$PROJECT_DIR$/p0571gridview" />
             <option value="$PROJECT_DIR$/simpleadaptercustom" />
           </set>
         </option>
