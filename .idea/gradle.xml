@@ -5,9 +5,32 @@
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="C:\Program Files\Android\Android Studio\gradle\gradle-2.8" />
+        <option name="gradleHome" value="C:\Program Files\Android\Android Studio\gradle\gradle-2.10" />
         <option name="gradleJvm" value="1.8" />
         <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/p0391sqliteonupgradedb" />
+            <option value="$PROJECT_DIR$/p0401layoutinflater" />
+            <option value="$PROJECT_DIR$/p0411layoutinflaterlist" />
+            <option value="$PROJECT_DIR$/p0421simplelist" />
+            <option value="$PROJECT_DIR$/p0431simplelistchoice" />
+            <option value="$PROJECT_DIR$/p0441simplelistevents" />
+            <option value="$PROJECT_DIR$/p0451expandablelist" />
+            <option value="$PROJECT_DIR$/p0461expandablelistevents" />
+            <option value="$PROJECT_DIR$/p0481simpleadaper" />
+            <option value="$PROJECT_DIR$/p0491simpleadapercustom1" />
+            <option value="$PROJECT_DIR$/p0511simpleadapterdata" />
+            <option value="$PROJECT_DIR$/p0531simplecursortreeadapter" />
+            <option value="$PROJECT_DIR$/p0541customadapter" />
+            <option value="$PROJECT_DIR$/p0551headerfooter" />
+            <option value="$PROJECT_DIR$/p0561spinner" />
+            <option value="$PROJECT_DIR$/p0571gridview" />
+            <option value="$PROJECT_DIR$/simpleadaptercustom" />
+          </set>
+        </option>
+        <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
