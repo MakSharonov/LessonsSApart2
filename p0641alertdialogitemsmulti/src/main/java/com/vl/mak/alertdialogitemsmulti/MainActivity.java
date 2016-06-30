@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(DialogInterface dialog, int which, boolean isChecked) {
             ListView lv = ((AlertDialog) dialog).getListView();
             Log.d(LOG_TAG, "which = " + which + " is checked = " + isChecked);
-            //db.ChangeRec(which, isChecked);
+            db.ChangeRec(which, isChecked);
             cursor.requery();
         }
     };
