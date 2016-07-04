@@ -31,6 +31,7 @@
       <module fileurl="file://$PROJECT_DIR$/p0671progressdialog/p0671progressdialog.iml" filepath="$PROJECT_DIR$/p0671progressdialog/p0671progressdialog.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0681parcel/p0681parcel.iml" filepath="$PROJECT_DIR$/p0681parcel/p0681parcel.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0691parcelable/p0619parcelable.iml" filepath="$PROJECT_DIR$/p0691parcelable/p0619parcelable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0701saveinstancestate/p0701saveinstancestate.iml" filepath="$PROJECT_DIR$/p0701saveinstancestate/p0701saveinstancestate.iml" />
       <module fileurl="file://$PROJECT_DIR$/p6211alertdialogitems/p6211alertdialogitems.iml" filepath="$PROJECT_DIR$/p6211alertdialogitems/p6211alertdialogitems.iml" />
       <module fileurl="file://$PROJECT_DIR$/simpleadaptercustom/simpleadaptercustom.iml" filepath="$PROJECT_DIR$/simpleadaptercustom/simpleadaptercustom.iml" />
     </modules>
