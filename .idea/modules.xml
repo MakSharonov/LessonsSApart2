@@ -24,14 +24,16 @@
       <module fileurl="file://$PROJECT_DIR$/p059datepickerdialog/p059datepickerdialog.iml" filepath="$PROJECT_DIR$/p059datepickerdialog/p059datepickerdialog.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0601simplealertdialog/p0601simplealertdialog.iml" filepath="$PROJECT_DIR$/p0601simplealertdialog/p0601simplealertdialog.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0611alertdialogprepare/p0611alertdialogprepare.iml" filepath="$PROJECT_DIR$/p0611alertdialogprepare/p0611alertdialogprepare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0691parcelable/p0619parcelable.iml" filepath="$PROJECT_DIR$/p0691parcelable/p0619parcelable.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0631alertdialogitemssingle/p0631alertdialogitemssingle.iml" filepath="$PROJECT_DIR$/p0631alertdialogitemssingle/p0631alertdialogitemssingle.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0641alertdialogitemsmulti/p0641alertdialogitemsmulti.iml" filepath="$PROJECT_DIR$/p0641alertdialogitemsmulti/p0641alertdialogitemsmulti.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0651alertdialogcustom/p0651alertdialogcustom.iml" filepath="$PROJECT_DIR$/p0651alertdialogcustom/p0651alertdialogcustom.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0661alertdialogoperations/p0661alertdialogoperations.iml" filepath="$PROJECT_DIR$/p0661alertdialogoperations/p0661alertdialogoperations.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0671progressdialog/p0671progressdialog.iml" filepath="$PROJECT_DIR$/p0671progressdialog/p0671progressdialog.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0681parcel/p0681parcel.iml" filepath="$PROJECT_DIR$/p0681parcel/p0681parcel.iml" />
-      <module fileurl="file://$PROJECT_DIR$/p0691parcelable/p0619parcelable.iml" filepath="$PROJECT_DIR$/p0691parcelable/p0619parcelable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0691parcelable/p0691parcelable.iml" filepath="$PROJECT_DIR$/p0691parcelable/p0691parcelable.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0701saveinstancestate/p0701saveinstancestate.iml" filepath="$PROJECT_DIR$/p0701saveinstancestate/p0701saveinstancestate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0711preferencessimple/p0711preferencessimple.iml" filepath="$PROJECT_DIR$/p0711preferencessimple/p0711preferencessimple.iml" />
       <module fileurl="file://$PROJECT_DIR$/p6211alertdialogitems/p6211alertdialogitems.iml" filepath="$PROJECT_DIR$/p6211alertdialogitems/p6211alertdialogitems.iml" />
       <module fileurl="file://$PROJECT_DIR$/simpleadaptercustom/simpleadaptercustom.iml" filepath="$PROJECT_DIR$/simpleadaptercustom/simpleadaptercustom.iml" />
     </modules>
