@@ -34,6 +34,7 @@
       <module fileurl="file://$PROJECT_DIR$/p0691parcelable/p0691parcelable.iml" filepath="$PROJECT_DIR$/p0691parcelable/p0691parcelable.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0701saveinstancestate/p0701saveinstancestate.iml" filepath="$PROJECT_DIR$/p0701saveinstancestate/p0701saveinstancestate.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0711preferencessimple/p0711preferencessimple.iml" filepath="$PROJECT_DIR$/p0711preferencessimple/p0711preferencessimple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0721preferencessimple2/p0721preferencessimple2.iml" filepath="$PROJECT_DIR$/p0721preferencessimple2/p0721preferencessimple2.iml" />
       <module fileurl="file://$PROJECT_DIR$/p6211alertdialogitems/p6211alertdialogitems.iml" filepath="$PROJECT_DIR$/p6211alertdialogitems/p6211alertdialogitems.iml" />
       <module fileurl="file://$PROJECT_DIR$/simpleadaptercustom/simpleadaptercustom.iml" filepath="$PROJECT_DIR$/simpleadaptercustom/simpleadaptercustom.iml" />
     </modules>
