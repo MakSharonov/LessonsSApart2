@@ -47,46 +47,7 @@
             <option value="$PROJECT_DIR$/simpleadaptercustom" />
           </set>
         </option>
-        <option name="myModules">
-          <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/p0391sqliteonupgradedb" />
-            <option value="$PROJECT_DIR$/p0401layoutinflater" />
-            <option value="$PROJECT_DIR$/p0411layoutinflaterlist" />
-            <option value="$PROJECT_DIR$/p0421simplelist" />
-            <option value="$PROJECT_DIR$/p0431simplelistchoice" />
-            <option value="$PROJECT_DIR$/p0441simplelistevents" />
-            <option value="$PROJECT_DIR$/p0451expandablelist" />
-            <option value="$PROJECT_DIR$/p0461expandablelistevents" />
-            <option value="$PROJECT_DIR$/p0481simpleadaper" />
-            <option value="$PROJECT_DIR$/p0491simpleadapercustom1" />
-            <option value="$PROJECT_DIR$/p0511simpleadapterdata" />
-            <option value="$PROJECT_DIR$/p0531simplecursortreeadapter" />
-            <option value="$PROJECT_DIR$/p0541customadapter" />
-            <option value="$PROJECT_DIR$/p0551headerfooter" />
-            <option value="$PROJECT_DIR$/p0561spinner" />
-            <option value="$PROJECT_DIR$/p0571gridview" />
-            <option value="$PROJECT_DIR$/p0581timepickerdialog" />
-            <option value="$PROJECT_DIR$/p059datepickerdialog" />
-            <option value="$PROJECT_DIR$/p0601simplealertdialog" />
-            <option value="$PROJECT_DIR$/p0611alertdialogprepare" />
-            <option value="$PROJECT_DIR$/p0631alertdialogitemssingle" />
-            <option value="$PROJECT_DIR$/p0641alertdialogitemsmulti" />
-            <option value="$PROJECT_DIR$/p0651alertdialogcustom" />
-            <option value="$PROJECT_DIR$/p0661alertdialogoperations" />
-            <option value="$PROJECT_DIR$/p0671progressdialog" />
-            <option value="$PROJECT_DIR$/p0681parcel" />
-            <option value="$PROJECT_DIR$/p0691parcelable" />
-            <option value="$PROJECT_DIR$/p0701saveinstancestate" />
-            <option value="$PROJECT_DIR$/p0711preferencessimple" />
-            <option value="$PROJECT_DIR$/p0721preferencessimple2" />
-            <option value="$PROJECT_DIR$/p0731preferencesenable" />
-            <option value="$PROJECT_DIR$/p0741preferencescode" />
-            <option value="$PROJECT_DIR$/p6211alertdialogitems" />
-            <option value="$PROJECT_DIR$/simpleadaptercustom" />
-          </set>
-        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>
   </component>
