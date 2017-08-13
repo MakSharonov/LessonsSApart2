@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Files</string>
+    <string name="write_file">Write file</string>
+    <string name="read_file">Read file</string>
+    <string name="write_file_SD">Write file on SD card</string>
+    <string name="read_file_SD">Read file from SD card</string>
+</resources>
