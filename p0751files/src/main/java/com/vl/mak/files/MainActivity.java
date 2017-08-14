@@ -87,10 +87,13 @@ public class MainActivity extends Activity {
     void writeFileSD() {
         if(!Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED)) {
             Log.d(LOG_TAG, "SD card is unavailable");
+            Log.d(LOG_TAG, Environment.getExternalStorageState());
             return;
         }
 
         Log.d(LOG_TAG, "SD card is available!");
+
+        getExternalFilesDir(null);
 
         File sdPath = Environment.getExternalStorageDirectory();
         sdPath = new File(sdPath.getAbsolutePath() + "/" + DIR_SD);
@@ -132,6 +135,5 @@ public class MainActivity extends Activity {
         catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 }
