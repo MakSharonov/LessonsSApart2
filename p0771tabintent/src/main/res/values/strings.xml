@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TabIntent</string>
+    <string name="text_activity1">First activity</string>
+    <string name="text_activity2">Second activity</string>
+</resources>
