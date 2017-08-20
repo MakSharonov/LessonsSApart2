@@ -43,6 +43,7 @@
       <module fileurl="file://$PROJECT_DIR$/p0791xmlpullparser/p0791xmlpullparser.iml" filepath="$PROJECT_DIR$/p0791xmlpullparser/p0791xmlpullparser.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0801handler/p0801handler.iml" filepath="$PROJECT_DIR$/p0801handler/p0801handler.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0811handlersimplemessage/p0811handlersimplemessage.iml" filepath="$PROJECT_DIR$/p0811handlersimplemessage/p0811handlersimplemessage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0821handleradvmessage/p0821handleradvmessage.iml" filepath="$PROJECT_DIR$/p0821handleradvmessage/p0821handleradvmessage.iml" />
       <module fileurl="file://$PROJECT_DIR$/p6211alertdialogitems/p6211alertdialogitems.iml" filepath="$PROJECT_DIR$/p6211alertdialogitems/p6211alertdialogitems.iml" />
       <module fileurl="file://$PROJECT_DIR$/simpleadaptercustom/simpleadaptercustom.iml" filepath="$PROJECT_DIR$/simpleadaptercustom/simpleadaptercustom.iml" />
     </modules>
