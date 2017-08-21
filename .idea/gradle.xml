@@ -51,6 +51,7 @@
             <option value="$PROJECT_DIR$/p0801handler" />
             <option value="$PROJECT_DIR$/p0811handlersimplemessage" />
             <option value="$PROJECT_DIR$/p0821handleradvmessage" />
+            <option value="$PROJECT_DIR$/p0831handlermessagemanage" />
             <option value="$PROJECT_DIR$/p6211alertdialogitems" />
             <option value="$PROJECT_DIR$/simpleadaptercustom" />
           </set>
