@@ -45,6 +45,7 @@
       <module fileurl="file://$PROJECT_DIR$/p0811handlersimplemessage/p0811handlersimplemessage.iml" filepath="$PROJECT_DIR$/p0811handlersimplemessage/p0811handlersimplemessage.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0821handleradvmessage/p0821handleradvmessage.iml" filepath="$PROJECT_DIR$/p0821handleradvmessage/p0821handleradvmessage.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0831handlermessagemanage/p0831handlermessagemanage.iml" filepath="$PROJECT_DIR$/p0831handlermessagemanage/p0831handlermessagemanage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0841handlerrunnable/p0841handlerrunnable.iml" filepath="$PROJECT_DIR$/p0841handlerrunnable/p0841handlerrunnable.iml" />
       <module fileurl="file://$PROJECT_DIR$/p6211alertdialogitems/p6211alertdialogitems.iml" filepath="$PROJECT_DIR$/p6211alertdialogitems/p6211alertdialogitems.iml" />
       <module fileurl="file://$PROJECT_DIR$/simpleadaptercustom/simpleadaptercustom.iml" filepath="$PROJECT_DIR$/simpleadaptercustom/simpleadaptercustom.iml" />
     </modules>
