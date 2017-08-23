@@ -50,6 +50,7 @@
       <module fileurl="file://$PROJECT_DIR$/p0861asynctask/p0861asynctask.iml" filepath="$PROJECT_DIR$/p0861asynctask/p0861asynctask.iml" />
       <module fileurl="file://$PROJECT_DIR$/p087asynctaskparams/p087asynctaskparams.iml" filepath="$PROJECT_DIR$/p087asynctaskparams/p087asynctaskparams.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0881asynctaskresult/p0881asynctaskresult.iml" filepath="$PROJECT_DIR$/p0881asynctaskresult/p0881asynctaskresult.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0891asynctaskcancel/p0891asynctaskcancel.iml" filepath="$PROJECT_DIR$/p0891asynctaskcancel/p0891asynctaskcancel.iml" />
       <module fileurl="file://$PROJECT_DIR$/p6211alertdialogitems/p6211alertdialogitems.iml" filepath="$PROJECT_DIR$/p6211alertdialogitems/p6211alertdialogitems.iml" />
       <module fileurl="file://$PROJECT_DIR$/simpleadaptercustom/simpleadaptercustom.iml" filepath="$PROJECT_DIR$/simpleadaptercustom/simpleadaptercustom.iml" />
     </modules>
