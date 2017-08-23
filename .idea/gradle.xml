@@ -55,6 +55,8 @@
             <option value="$PROJECT_DIR$/p0841handlerrunnable" />
             <option value="$PROJECT_DIR$/p0851runnableuithread" />
             <option value="$PROJECT_DIR$/p0861asynctask" />
+            <option value="$PROJECT_DIR$/p087asynctaskparams" />
+            <option value="$PROJECT_DIR$/p0881asynctaskresult" />
             <option value="$PROJECT_DIR$/p6211alertdialogitems" />
             <option value="$PROJECT_DIR$/simpleadaptercustom" />
           </set>
