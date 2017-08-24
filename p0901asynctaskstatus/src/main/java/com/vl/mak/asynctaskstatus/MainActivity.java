@@ -14,38 +14,32 @@ public class MainActivity extends Activity {
     TextView tvInfo;
     MyTask mt;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        tvInfo = findViewById(R.id.tvInfo);
+        tvInfo = (TextView) findViewById(R.id.tvInfo);
     }
 
-    void onclick(View v) {
+    public void onclick(View v) {
         switch (v.getId()) {
             case R.id.btnStart:
-                startTask();
+                mt = new MyTask();
+                mt.execute();
+                mt.cancel(false);
                 break;
             case R.id.btnStatus:
-                showStatus();
+                checkStatus();
                 break;
         }
+
     }
 
-    void startTask() {
-        mt = new MyTask();
-        mt.execute();
-        mt.cancel(false);
-    }
-
-    void showStatus() {
-        if (mt != null) {
-            if (mt.isCancelled())
-                Toast.makeText(this, "CANCELLED", Toast.LENGTH_SHORT).show();
-            else
-                Toast.makeText(this, mt.getStatus().toString(), Toast.LENGTH_SHORT).show();
-        }
+    public void checkStatus() {
+        if (mt == null) return;
+        Toast.makeText(this, mt.getStatus().toString(),Toast.LENGTH_SHORT).show();
     }
 
     class MyTask extends AsyncTask<Void, Void, Void> {
@@ -53,18 +47,18 @@ public class MainActivity extends Activity {
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
-            tvInfo.setText("Execute");
+            tvInfo.setText("Begin");
         }
 
         @Override
         protected Void doInBackground(Void... voids) {
-            try {
-                for (int i=0; i<5; i++) {
-                    if (isCancelled()) return null;
+            for (int i=0; i<5; i++) {
+                //if (isCancelled()) return null;
+                try {
                     TimeUnit.SECONDS.sleep(1);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
                 }
-            } catch (InterruptedException e) {
-                e.printStackTrace();
             }
             return null;
         }
@@ -76,9 +70,9 @@ public class MainActivity extends Activity {
         }
 
         @Override
-        protected void onCancelled(Void aVoid) {
-            super.onCancelled(aVoid);
-            tvInfo.setText("Cancelled");
+        protected void onCancelled() {
+            super.onCancelled();
+            tvInfo.setText("Cancel");
         }
     }
 }

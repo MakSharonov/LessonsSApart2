@@ -59,6 +59,7 @@
             <option value="$PROJECT_DIR$/p0881asynctaskresult" />
             <option value="$PROJECT_DIR$/p0891asynctaskcancel" />
             <option value="$PROJECT_DIR$/p0901asynctaskstatus" />
+            <option value="$PROJECT_DIR$/p0911asynctaskrotate" />
             <option value="$PROJECT_DIR$/p6211alertdialogitems" />
             <option value="$PROJECT_DIR$/simpleadaptercustom" />
           </set>
