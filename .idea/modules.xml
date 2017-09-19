@@ -55,6 +55,8 @@
       <module fileurl="file://$PROJECT_DIR$/p0911asynctaskrotate/p0911asynctaskrotate.iml" filepath="$PROJECT_DIR$/p0911asynctaskrotate/p0911asynctaskrotate.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0921servicesimple/p0921servicesimple.iml" filepath="$PROJECT_DIR$/p0921servicesimple/p0921servicesimple.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0931servicestop/p0931servicestop.iml" filepath="$PROJECT_DIR$/p0931servicestop/p0931servicestop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0941servicekillclient/p0941servicekillclient.iml" filepath="$PROJECT_DIR$/p0941servicekillclient/p0941servicekillclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0942servicekillserver/p0942servicekillserver.iml" filepath="$PROJECT_DIR$/p0942servicekillserver/p0942servicekillserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/p6211alertdialogitems/p6211alertdialogitems.iml" filepath="$PROJECT_DIR$/p6211alertdialogitems/p6211alertdialogitems.iml" />
       <module fileurl="file://$PROJECT_DIR$/simpleadaptercustom/simpleadaptercustom.iml" filepath="$PROJECT_DIR$/simpleadaptercustom/simpleadaptercustom.iml" />
     </modules>
