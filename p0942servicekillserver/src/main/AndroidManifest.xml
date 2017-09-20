@@ -14,7 +14,7 @@
             android:enabled="true"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.vl.mak.p0942servicekillserver.MyService"></action>
+                <action android:name="com.vl.mak.servicekillserver.MyService"></action>
             </intent-filter>
         </service>
     </application>
