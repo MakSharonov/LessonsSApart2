@@ -32,7 +32,7 @@ public class MyService extends Service {
         readFlags(flags);
         MyRun mr = new MyRun(startId);
         new Thread(mr).start();
-        return START_NOT_STICKY;
+        return START_REDELIVER_INTENT;
     }
 
     void readFlags(int flags) {
@@ -40,6 +40,10 @@ public class MyService extends Service {
             Log.d(LOG_TAG, "START_FLAG_REDELIVERY");
         } else if((flags&START_FLAG_RETRY)==START_FLAG_RETRY) {
             Log.d(LOG_TAG, "START_FLAG_RETRY");
+        } else if((flags&START_NOT_STICKY)==START_NOT_STICKY) {
+            Log.d(LOG_TAG, "START_NOT_STICKY");
+        } else {
+            Log.d(LOG_TAG, "HZ FLAG");
         }
     }
 

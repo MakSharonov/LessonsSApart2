@@ -18,5 +18,6 @@ public class MainActivity extends Activity {
     public void onClick(View v) {
         Intent in = new Intent("com.vl.mak.servicekillserver.MyService").putExtra("name","value");
         in.setPackage("com.vl.mak.servicekillserver");
+        startService(in);
     }
 }
