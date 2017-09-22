@@ -25,8 +25,6 @@ public class MainActivity extends Activity {
 
     TextView tvTask1, tvTask2, tvTask3;
 
-    PendingIntent pi;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,7 +37,20 @@ public class MainActivity extends Activity {
 
     public void onClickStart(View v) {
 
+        Intent intent;
+        PendingIntent pi;
 
+        pi = createPendingResult(TASK1_CODE, new Intent(), 0);
+        intent = new Intent(this, MyService.class).putExtra(PARAM_PINTENT, pi).putExtra(PARAM_TIME, 7);
+        startService(intent);
+
+        pi = createPendingResult(TASK2_CODE, new Intent(), 0);
+        intent = new Intent(this, MyService.class).putExtra(PARAM_PINTENT, pi).putExtra(PARAM_TIME, 4);
+        startService(intent);
+
+        pi = createPendingResult(TASK3_CODE, new Intent(), 0);
+        intent = new Intent(this, MyService.class).putExtra(PARAM_PINTENT, pi).putExtra(PARAM_TIME, 6);
+        startService(intent);
     }
 
     @Override
@@ -63,7 +74,13 @@ public class MainActivity extends Activity {
         if (resultCode == STATUS_FINISH) {
             switch (requestCode) {
                 case TASK1_CODE:
-                    tvTask1.setText("Task 1 finished");
+                    tvTask1.setText("Task 1 finished. Result: " + data.getIntExtra(PARAM_RESULT, 0));
+                    break;
+                case TASK2_CODE:
+                    tvTask2.setText("Task 2 finished. Result: " + data.getIntExtra(PARAM_RESULT, 0));
+                    break;
+                case TASK3_CODE:
+                    tvTask3.setText("Task 3 finished. Result: " + data.getIntExtra(PARAM_RESULT, 0));
                     break;
             }
         }
