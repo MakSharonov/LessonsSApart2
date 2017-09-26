@@ -62,6 +62,7 @@
       <module fileurl="file://$PROJECT_DIR$/p0971servicebindclient/p0971servicebindclient.iml" filepath="$PROJECT_DIR$/p0971servicebindclient/p0971servicebindclient.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0972servicebindserver/p0972servicebindserver.iml" filepath="$PROJECT_DIR$/p0972servicebindserver/p0972servicebindserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/p6211alertdialogitems/p6211alertdialogitems.iml" filepath="$PROJECT_DIR$/p6211alertdialogitems/p6211alertdialogitems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p981servicebindinglocal/p981servicebindinglocal.iml" filepath="$PROJECT_DIR$/p981servicebindinglocal/p981servicebindinglocal.iml" />
       <module fileurl="file://$PROJECT_DIR$/simpleadaptercustom/simpleadaptercustom.iml" filepath="$PROJECT_DIR$/simpleadaptercustom/simpleadaptercustom.iml" />
     </modules>
   </component>
