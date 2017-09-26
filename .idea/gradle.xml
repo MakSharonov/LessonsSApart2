@@ -66,6 +66,8 @@
             <option value="$PROJECT_DIR$/p0942servicekillserver" />
             <option value="$PROJECT_DIR$/p0951servicebackpendingintent" />
             <option value="$PROJECT_DIR$/p0961servicebackbroadcast" />
+            <option value="$PROJECT_DIR$/p0971servicebindclient" />
+            <option value="$PROJECT_DIR$/p0972servicebindserver" />
             <option value="$PROJECT_DIR$/p6211alertdialogitems" />
             <option value="$PROJECT_DIR$/simpleadaptercustom" />
           </set>
