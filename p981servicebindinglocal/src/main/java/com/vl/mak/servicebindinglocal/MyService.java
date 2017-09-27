@@ -27,6 +27,8 @@ public class MyService extends Service {
     public void onCreate() {
         super.onCreate();
 
+        interval = 500;
+
         timer = new Timer();
         schedule();
     }
