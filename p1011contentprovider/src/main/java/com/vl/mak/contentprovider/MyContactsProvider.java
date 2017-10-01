@@ -1,6 +1,7 @@
 package com.vl.mak.contentprovider;
 
 import android.content.ContentProvider;
+import android.content.ContentUris;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.UriMatcher;
@@ -12,6 +13,8 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.database.sqlite.SQLiteDatabase;
 import android.text.TextUtils;
 import android.util.Log;
+
+import java.util.IllegalFormatCodePointException;
 
 /**
  * Created by Mak on 28.09.2017.
@@ -45,6 +48,14 @@ public class MyContactsProvider extends ContentProvider {
     static final int URI_CONTACTS = 1;
     static final int URI_CONTACTS_ID = 2;
 
+    // Типы данных
+    // набор строк
+    static final String CONTACT_CONTENT_TYPE = "vnd.android.cursor.dir/vnd." +
+            AUTHORITY + "." + CONTACTS_PATH;
+    // одна строка
+    static final String CONTACT_CONTENT_ITEM_TYPE = "vnd.android.cursor.item/vnd." +
+            AUTHORITY + "." + CONTACTS_PATH;
+
     private static final UriMatcher uriMatcher;
     static {
         uriMatcher = new UriMatcher(UriMatcher.NO_MATCH);
@@ -71,7 +82,7 @@ public class MyContactsProvider extends ContentProvider {
                 Log.d(LOG_TAG, "URI_CONTACTS");
                 // make default sort if not made
                 if(TextUtils.isEmpty(sortOrder)) {
-                    sortOrder = CONTACT_NAME + "ASC";
+                    sortOrder = CONTACT_NAME + " ASC";
                 }
                 break;
             case URI_CONTACTS_ID:
@@ -97,23 +108,79 @@ public class MyContactsProvider extends ContentProvider {
     @Nullable
     @Override
     public String getType(@NonNull Uri uri) {
+        Log.d(LOG_TAG, "getType " + uri.toString());
+        switch (uriMatcher.match(uri)) {
+            case URI_CONTACTS:
+                return CONTACT_CONTENT_TYPE;
+            case URI_CONTACTS_ID:
+                return CONTACT_CONTENT_ITEM_TYPE;
+        }
         return null;
     }
 
     @Nullable
     @Override
     public Uri insert(@NonNull Uri uri, @Nullable ContentValues contentValues) {
-        return null;
+        Log.d(LOG_TAG, "insert " + uri.toString());
+        if (uriMatcher.match(uri)!=URI_CONTACTS) {
+            throw new IllegalArgumentException("Wrong uri: " + uri.toString());
+        }
+        db = dbHelper.getWritableDatabase();
+        long rowID = db.insert(CONTACT_TABLE, null, contentValues);
+        Uri resultID = ContentUris.withAppendedId(CONTACT_CONTENT_URI, rowID);
+        // уведомляем ContentResolver, что данные по адресу resultID изменились
+        getContext().getContentResolver().notifyChange(resultID, null);
+        return resultID;
     }
 
     @Override
-    public int delete(@NonNull Uri uri, @Nullable String s, @Nullable String[] strings) {
-        return 0;
+    public int delete(@NonNull Uri uri, @Nullable String selection, @Nullable String[] selectionArgs) {
+        Log.d(LOG_TAG, "delete " + uri.toString());
+        switch (uriMatcher.match(uri)) {
+            case URI_CONTACTS:
+                Log.d(LOG_TAG, "URI_CONTACTS");
+                break;
+            case URI_CONTACTS_ID:
+                String id  = uri.getLastPathSegment();
+                Log.d(LOG_TAG, "URI_CONTACTS_ID " + id);
+                if (TextUtils.isEmpty(selection)) {
+                    selection = CONTACT_ID  + "=" + id;
+                } else {
+                    selection += " AND "  + CONTACT_ID  + "=" + id;
+                }
+                break;
+            default:
+                throw new IllegalArgumentException("Wrong uri: " + uri.toString());
+        }
+        db = dbHelper.getWritableDatabase();
+        int cnt = db.delete(CONTACT_TABLE, selection, selectionArgs);
+        getContext().getContentResolver().notifyChange(uri, null);
+        return cnt;
     }
 
     @Override
-    public int update(@NonNull Uri uri, @Nullable ContentValues contentValues, @Nullable String s, @Nullable String[] strings) {
-        return 0;
+    public int update(@NonNull Uri uri, @Nullable ContentValues contentValues, @Nullable String selection, @Nullable String[] selectionArgs) {
+        Log.d(LOG_TAG, "update " + uri);
+        switch (uriMatcher.match(uri)) {
+            case URI_CONTACTS:
+                Log.d(LOG_TAG, "URI_CONTACTS");
+                break;
+            case URI_CONTACTS_ID:
+                String id = uri.getLastPathSegment();
+                Log.d(LOG_TAG, "URI_CONTACTS_ID" + id);
+                if (TextUtils.isEmpty(selection)) {
+                    selection = CONTACT_ID + "=" + id;
+                } else {
+                    selection += " AND " + CONTACT_ID + "=" + id;
+                }
+                break;
+            default:
+                throw new IllegalArgumentException("Wrong uri: " + uri.toString());
+        }
+        db = dbHelper.getWritableDatabase();
+        int cnt = db.update(CONTACT_TABLE, contentValues, selection, selectionArgs);
+        getContext().getContentResolver().notifyChange(uri, null);
+        return cnt;
     }
 
     private class DBHelper extends SQLiteOpenHelper {
