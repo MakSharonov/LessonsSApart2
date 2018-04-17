@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PreferenceFragment</string>
+    <string name="chb1_title">Checkbox 1</string>
+    <string name="chb1_summary">Summary of checkbox 1</string>
+    <string name="et1_title">EditText 1</string>
+    <string name="et1_summary">Summary of edittext 1</string>
+    <string name="list1_title">List 1</string>
+    <string name="list1_summary">Summary of list 1</string>
+    <array name="entries">
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+    </array>
+    <array name="entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </array>
+</resources>

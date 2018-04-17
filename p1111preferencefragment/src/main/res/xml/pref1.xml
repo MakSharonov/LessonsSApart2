@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="chb1"
+        android:title="@string/chb1_title"
+        android:summary="@string/chb1_summary"/>
+
+    <EditTextPreference
+        android:key="et1"
+        android:title="@string/et1_title"
+        android:summary="@string/et1_summary"/>
+
+    <ListPreference
+        android:key="list1"
+        android:title="@string/list1_title"
+        android:summary="@string/list1_summary"
+        android:entries="@array/entries"
+        android:entryValues="@array/entry_values"/>
+
+</PreferenceScreen>
